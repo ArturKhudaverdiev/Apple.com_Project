@@ -104,7 +104,6 @@ f_shop_for_government = "//a[contains(.,'Shop for Government')]"
 f_shop_for_veterans_and_military = "//a[contains(.,'Shop for Veterans and Military')]"
 
 #Apple Values
-
 f_accessibility = "(//a[contains(.,'Accessibility')])[2]"
 f_education = "(//a[contains(.,'Education')])[5]"
 f_environment = "//a[contains(.,'Environment')]"
@@ -114,7 +113,6 @@ f_racial_equity_and_justice = "//a[contains(.,'Racial Equity and Justice')]"
 f_supplier_responsibility = "//a[contains(.,'Supplier Responsibility')]"
 
 #About apple
-
 f_newsroom = "//a[contains(.,'Newsroom')]"
 f_apple_leadership = "//a[contains(.,'Apple Leadership')]"
 f_career_opportunities = "//a[contains(.,'Career Opportunities')]"
@@ -124,7 +122,6 @@ f_events = "//a[contains(.,'Events')]"
 f_contact_apple = "//a[contains(.,'Contact Apple')]"
 
 #Copyright © 2023 Apple Inc. All rights reserved.
-
 f_privacy_policy = "//a[contains(.,'Privacy Policy')]"
 f_terms_of_use = "//a[contains(.,'Terms of Use')]"
 f_sales_and_refunds = "//a[contains(.,'Sales and Refunds')]"

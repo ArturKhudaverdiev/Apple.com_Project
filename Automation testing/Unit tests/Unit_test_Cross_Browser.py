@@ -143,6 +143,7 @@ class ChromeSearch(unittest.TestCase):
         time.sleep(2)
         wait = WebDriverWait(driver, 5)
         try:
+            # Shop and Learn
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_store)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.f_store)))
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_mac)))
@@ -166,6 +167,8 @@ class ChromeSearch(unittest.TestCase):
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_gift_cards)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.f_gift_cards)))
             time.sleep(2)
+
+            # Apple Wallet
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_wallet)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.f_wallet)))
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_apple_card)))
@@ -175,6 +178,8 @@ class ChromeSearch(unittest.TestCase):
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_apple_cash)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.f_apple_cash)))
             time.sleep(2)
+
+            # Account
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_manage_your_apple_id)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.f_manage_your_apple_id)))
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_apple_store_account)))
@@ -182,6 +187,8 @@ class ChromeSearch(unittest.TestCase):
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_i_cloud_id)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.f_i_cloud_id)))
             time.sleep(2)
+
+            # Entertainment
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_apple_one)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.f_apple_one)))
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_apple_tv)))
@@ -201,6 +208,8 @@ class ChromeSearch(unittest.TestCase):
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_app_store)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.f_app_store)))
             time.sleep(2)
+
+            # Apple Store
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_find_a_store)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.f_find_a_store)))
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_genius_bar)))
@@ -224,11 +233,15 @@ class ChromeSearch(unittest.TestCase):
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.shopping_help)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.shopping_help)))
             time.sleep(2)
+
+            # For Business
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_apple_and_business)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.f_apple_and_business)))
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_shop_for_business)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.f_shop_for_business)))
             time.sleep(2)
+
+            # For Education
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_apple_and_education)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.f_apple_and_education)))
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_shop_for_k12)))
@@ -236,6 +249,8 @@ class ChromeSearch(unittest.TestCase):
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_shop_for_college)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.f_shop_for_college)))
             time.sleep(2)
+
+            # For Healthcare
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_apple_in_healthcare)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.f_apple_in_healthcare)))
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_health_on_apple_watch)))
@@ -243,11 +258,15 @@ class ChromeSearch(unittest.TestCase):
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_health_records_on_iphone)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.f_health_records_on_iphone)))
             time.sleep(2)
+
+            # For Government
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_shop_for_government)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.f_shop_for_government)))
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_shop_for_veterans_and_military)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.f_shop_for_veterans_and_military)))
             time.sleep(2)
+
+            # Apple Values
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_accessibility)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.f_accessibility)))
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_education)))
@@ -263,6 +282,8 @@ class ChromeSearch(unittest.TestCase):
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_supplier_responsibility)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.f_supplier_responsibility)))
             time.sleep(2)
+
+            # About apple
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_newsroom)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.f_newsroom)))
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_apple_leadership)))
@@ -278,6 +299,8 @@ class ChromeSearch(unittest.TestCase):
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_contact_apple)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.f_contact_apple)))
             time.sleep(2)
+
+            # Copyright © 2023 Apple Inc. All rights reserved.
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_privacy_policy)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.f_privacy_policy)))
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_terms_of_use)))
@@ -289,6 +312,8 @@ class ChromeSearch(unittest.TestCase):
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_site_map)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.f_site_map)))
             time.sleep(2)
+
+            # Footer choose country
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.f_country)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.f_country)))
             time.sleep(2)
@@ -303,6 +328,7 @@ class ChromeSearch(unittest.TestCase):
         time.sleep(2)
         wait = WebDriverWait(driver, 5)
         try:
+            # Shop
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.s_shop_the_latest)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.s_shop_the_latest)))
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.s_mac)))
@@ -315,6 +341,8 @@ class ChromeSearch(unittest.TestCase):
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.s_apple_watch)))
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.s_accessories)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.s_accessories)))
+
+            # Quick links
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.s_find_a_store)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.s_find_a_store)))
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.s_order_status)))
@@ -325,6 +353,8 @@ class ChromeSearch(unittest.TestCase):
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.s_financing)))
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.s_college_student_offer)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.s_college_student_offer)))
+
+            # Shop Special Stores
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.s_certified_refurbished)))
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.s_certified_refurbished)))
             wait.until(EC.visibility_of_element_located((By.XPATH, hp.s_education)))
