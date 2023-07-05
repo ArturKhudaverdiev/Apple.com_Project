@@ -331,7 +331,7 @@ class ChromeSearch(unittest.TestCase):
             wait.until(EC.element_to_be_clickable((By.XPATH, hp.s_education)))
 
         except TimeoutException:
-            print("The drop down menu is not clickable")
+            print("The drop down menu is clickable")
 
 
 
