@@ -134,6 +134,37 @@ f_site_map = "//a[contains(.,'Contact Apple')]"
 #Footer choose country
 f_country = "//a[@href='/choose-country-region/']"
 
+#DROP DOWN TOP MENU
+
+#STORE
+#Shop
+s_shop_the_latest = "//a[contains(.,'Shop the Latest')]"
+s_mac = "(//a[contains(.,'Mac')])[1]"
+s_ipad = "(//a[contains(.,'iPad')])[1]"
+s_iphone = "(//a[contains(.,'iPhone')])[1]"
+s_apple_watch = "(//a[contains(.,'Apple Watch')])[1]"
+s_accessories = "(//a[contains(.,'Accessories')])[1]"
+
+#Quick links
+s_find_a_store = "(//a[contains(.,'Find a Store')])[1]"
+s_order_status = "(//a[contains(.,'Order Status')])[1]"
+s_apple_trade_in = "(//a[contains(.,'Apple Trade In')])[1]"
+s_financing = "(//a[contains(.,'Financing')])[1]"
+s_college_student_offer = "(//a[contains(.,'College Student Offer')])[1]"
+
+#Shop Special Stores
+s_certified_refurbished = "(//a[contains(.,'Certified Refurbished')])[1]"
+s_education = "(//a[contains(.,'Education')])[1]"
+s_business = "(//a[contains(.,'Business')])[1]"
+s_veterans_and_military = "(//a[contains(.,'Veterans and Military')])[1]"
+s_government = "(//a[contains(.,'Government')])[1]"
+
+
+
+
+
+
+
 
 
 
