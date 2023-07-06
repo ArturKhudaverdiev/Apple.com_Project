@@ -96,12 +96,18 @@ class ChromeSearch(unittest.TestCase):
         wait.until(EC.element_to_be_clickable((By.XPATH, hp.accessories)))
         wait.until(EC.visibility_of_element_located((By.XPATH, hp.support)))
         wait.until(EC.element_to_be_clickable((By.XPATH, hp.support)))
+        print("The top menu is visible and clickable")
+
+        #Check that the search icon is click and visible
         wait.until(EC.visibility_of_element_located((By.XPATH, hp.search)))
         wait.until(EC.element_to_be_clickable((By.XPATH, hp.search)))
+        print("The search icon is visible and clickable")
+
+        # Check that the bag icon is click and visible
         wait.until(EC.visibility_of_element_located((By.XPATH, hp.bag)))
         wait.until(EC.element_to_be_clickable((By.XPATH, hp.bag)))
         time.sleep(2)
-        print("The top menu is visible and clickable")
+        print("The bag icon is visible and clickable")
 
     #Check that in the home page Carusel is work correct (TC - 003)
     def test_carousel(self):
