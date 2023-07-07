@@ -168,10 +168,9 @@ s_mac_studio = "//a[contains(.,'Mac Studio')]"
 s_mac_pro = "//a[contains(.,'Mac Pro')]"
 s_displays = "//a[contains(.,'Displays')]"
 s_compare_mac = "//a[contains(.,'Compare Mac')]"
-s_does_that = "//a[contains(.,'Mac Does That')]"
+s_mac_does_that = "//a[contains(.,'Mac Does That')]"
 
 #Shop Mac
-
 s_shop_mac = "//a[contains(.,'Shop Mac')]"
 s_mac_accessories = "//a[contains(.,'Mac Accessories')]"
 s_apple_trade_in_mac = "(//a[contains(.,'Apple Trade In')])[2]"
@@ -215,7 +214,6 @@ s_icloud_ipad = "(//a[contains(.,'iCloud')])[2]"
 s_education_ipad = "(//a[contains(.,'Education')])[3]"
 
 #IPHONE
-
 #Explore iPhone
 s_explore_all_iphone = "//a[contains(.,'Explore All iPhone')]"
 s_compare_iphone = "//a[contains(.,'Compare iPhone')]"
@@ -236,7 +234,6 @@ s_wallet_pay_card = "//a[contains(.,'Wallet, Pay, Card')]"
 s_siri = "(//a[contains(.,'Siri')])[1]"
 
 #WATCH
-
 #Explore watch
 s_explore_all_apple_watch = "//a[contains(.,'Explore All Apple Watch')]"
 s_compare_watch = "//a[contains(.,'Compare Watch')]"
@@ -255,7 +252,6 @@ s_apple_watch_support = "//a[contains(.,'Apple Watch Support')]"
 s_apple_fitness = "(//a[contains(.,'Apple Fitness+')])[1]"
 
 #AIRPODS
-
 #ExploreAirPods
 s_explore_all_airpods = "//a[contains(.,'Explore All AirPods')]"
 s_compare_airpods = "//a[contains(.,'Compare AirPods')]"
@@ -269,7 +265,6 @@ s_airpods_support = "//a[contains(.,'AirPods Support')]"
 s_apple_music = "(//a[contains(.,'Apple Music')])[1]"
 
 # TV AND HOME
-
 #Explore TV & Home
 s_explore_tv_home = "//a[contains(.,'Explore TV & Home')]"
 s_apple_tv_4k = "(//a[contains(.,'Apple TV 4K')])[1]"
@@ -294,7 +289,6 @@ s_siri_tv_home = "(//a[contains(.,'Siri')])[3]"
 s_airplay = "//a[contains(.,'AirPlay')]"
 
 #ENTERTAINMENT
-
 #Explore entertainment
 s_explore_entertainment = "//a[contains(.,'Explore Entertainment')]"
 s_apple_one = "(//a[contains(.,'Apple One')])[1]"
@@ -312,7 +306,6 @@ s_apple_tv_plus_support = "//a[contains(.,'Apple TV+ Support')]"
 s_apple_music_support = "//a[contains(.,'Apple Music Support')]"
 
 #ACCESSORIES
-
 #Shop Accessories
 s_shop_all_accessories = "//a[contains(.,'Shop All Accessories')]"
 s_shop_accessories_mac = "(//a[contains(.,'Mac')])[16]"
@@ -328,7 +321,6 @@ s_beats_by_dr_dre = "//a[contains(.,'Beats by Dr. Dre')]"
 s_air_tag = "(//a[contains(.,'AirTag')])[1]"
 
 #SUPPORT
-
 #Explore support
 s_iphone_explore_support = "(//a[contains(.,'iPhone')])[15]"
 s_mac_explore_support = "(//a[contains(.,'Mac')])[17]"
