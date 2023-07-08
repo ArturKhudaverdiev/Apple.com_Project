@@ -20,6 +20,7 @@ entertainment = "//span[@class='globalnav-link-text-container'][contains(.,'Ente
 accessories = "//span[@class='globalnav-link-text-container'][contains(.,'Accessories')]"
 support = "//span[@class='globalnav-link-text-container'][contains(.,'Support')]"
 search = "//a[@id='globalnav-menubutton-link-search']"
+search_input_field = "//input[contains(@class,'globalnav-searchfield-input')]"
 bag = "//a[@id='globalnav-menubutton-link-bag']"
 
 #Image Carousel on home page
