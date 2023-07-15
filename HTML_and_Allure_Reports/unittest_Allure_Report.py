@@ -318,7 +318,7 @@ class ChromeSearch(unittest.TestCase):
         except TimeoutException:
             print("The footer menu is visible and clickable. TC - 006 IS PASSED")
 
-    # Verify that in submenu on top menu is visible and clickable (TC - 007)
+    # Verify that submenu on top menu is visible and clickable (TC - 007)
     def test_drop_down_top_menu(self):
         driver = self.driver
         self.driver.maximize_window()
