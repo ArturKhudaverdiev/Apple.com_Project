@@ -6,6 +6,8 @@ import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import WebDriverWait, Select
+from selenium.common.exceptions import NoSuchElementException, TimeoutException
 
 driver = webdriver.Chrome()
 
@@ -71,45 +73,6 @@ time.sleep(2)
 
 #Click to checkout button
 driver.find_element(By.XPATH, "//button[@id='shoppingCart.actions.checkout']").click()
-time.sleep(3)
-
-#Click "Continue as Guest" button
-driver.find_element(By.XPATH, "//span[contains(.,'Continue as Guest')]").click()
-time.sleep(3)
-
-#Click to "I’ll pick it up" button
-driver.find_element(By.XPATH, "(//span[contains(.,'I’ll pick it up')])[3]").click()
-time.sleep(3)
-
-
-#Click to "Available Time Windows:
-driver.findElement(By.XPATH, "(//span[contains(.,'AvailableIn-Store Pickup')])[8]").click()
-time.sleep(3)
-
-
-#Click to "Continue to Pickup Details"
-driver.findElement(By.XPATH, "(//span[contains(.,'Continue to Pickup Details')])[2]").click()
-time.sleep(3)
-
-#Enter valid personal information
-#In input field "First Name" enter any valid first name
-driver.find_element(By.XPATH, "//input[@name='firstName']").send_keys("Artur")
-time.sleep(1)
-
-#In input field "Last Name" enter any valid last name
-driver.find_element(By.XPATH, "//input[@name='lastName']").send_keys("Arturov")
-time.sleep(1)
-
-#In input field "Email" enter valid email
-driver.find_element(By.XPATH, "//input[@name='emailAddress']").send_keys("artur1111@gmail.com")
-time.sleep(1)
-
-#In input field "Phone number" enter valid phone number
-driver.find_element(By.XPATH, "//input[@name='fullDaytimePhone']").send_keys("7778946534")
-time.sleep(1)
-
-#Click to "Continue to Payment" button
-driver.find_element(By.XPATH, "//button[@id='rs-checkout-continue-button-bottom']").send_keys("7778946534")
 time.sleep(3)
 
 driver.close()
