@@ -179,7 +179,7 @@ class ChromeSearch(unittest.TestCase):
         else:
             print(f"The element does not contain the search text: {h1_text}.")
 
-    # 1. Verify that user cannot enter invalid last name in "Apple Support will call you" page
+    # 3. Verify that user cannot enter invalid last name in "Apple Support will call you" page
     def test_with_invalid_first_name(self):
         driver = self.driver
         #Open website Apple.com (Home page)
