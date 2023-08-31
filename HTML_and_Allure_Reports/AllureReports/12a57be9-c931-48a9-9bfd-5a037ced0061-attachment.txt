@@ -1,0 +1,5 @@
+The currect URL is correct: https://www.apple.com/
+The Apple TITLE is correct: Apple
+The top menu is visible and clickable. TC - 002 IS PASSED
+The search icon is visible and clickable. TC - 003 IS PASSED
+The bag icon is visible and clickable. TC - 004 IS PASSED

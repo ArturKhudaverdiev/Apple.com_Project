@@ -1,0 +1,3 @@
+The currect URL is correct: https://www.apple.com/
+The Apple TITLE is correct: Apple
+The main Apple logotype is visible and clickable. TC - 001 IS PASSED

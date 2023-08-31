@@ -1,0 +1,3 @@
+The currect URL is correct: https://www.apple.com/
+The Apple TITLE is correct: Apple
+The drop down menu is clickable and visible. TC - 007 IS PASSED

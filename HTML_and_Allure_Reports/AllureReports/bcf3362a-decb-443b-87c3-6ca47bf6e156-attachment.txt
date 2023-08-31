@@ -1,0 +1,3 @@
+The currect URL is correct: https://www.apple.com/
+The Apple TITLE is correct: Apple
+The footer menu is visible and clickable. TC - 006 IS PASSED

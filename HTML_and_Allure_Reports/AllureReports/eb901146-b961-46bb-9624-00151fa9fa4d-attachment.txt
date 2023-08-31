@@ -1,0 +1,3 @@
+The currect URL is correct: https://www.apple.com/
+The Apple TITLE is correct: Apple
+valid information on search page is work correct. TC - 008 IS PASSED

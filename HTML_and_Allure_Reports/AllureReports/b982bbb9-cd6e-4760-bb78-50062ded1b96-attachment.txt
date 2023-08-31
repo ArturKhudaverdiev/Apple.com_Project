@@ -1,0 +1,3 @@
+The currect URL is correct: https://www.apple.com/
+The Apple TITLE is correct: Apple
+The Carousel is work correct. TC - 005 IS PASSED
