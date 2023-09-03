@@ -10,7 +10,7 @@ from selenium.common.exceptions import WebDriverException, TimeoutException
 from selenium.webdriver.support.wait import WebDriverWait
 import helpers as hp
 from selenium.webdriver.support import expected_conditions as EC
-import HtmlTestRunner
+import AllureReports
 
 
 # GoogleChrome Browser UnitTest HOME PAGE:
